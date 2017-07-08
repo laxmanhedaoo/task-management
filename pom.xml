@@ -48,7 +48,13 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
+		<!-- Start - Module Dependencies -->
+		<dependency>
+			<groupId>com.hedaoo</groupId>
+			<artifactId>common-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- End - Module Dependencies -->
 	</dependencies>
 
 
