@@ -14,8 +14,10 @@
  */
 package com.task.user.service;
 
-import com.common.service.IService;
+import com.common.service.Service;
 
-public interface TaskService extends IService{
+
+@org.springframework.stereotype.Service
+public interface TaskService extends Service{
 
 }
